@@ -6,6 +6,7 @@ public class fortytwo {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         System.out.println("the factorial of the given number is: "+factorial(num));
+        sc.close();
     }
     private static int factorial(int num){
         if(num==1)
